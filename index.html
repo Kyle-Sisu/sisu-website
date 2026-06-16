@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sisu Space | Finnish Sauna &amp; Cold Plunge</title>
+<meta name="description" content="A Finnish sauna and cold plunge experience in Charlottesville, VA. Find your Sisu." />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="favicon.png" />
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.sisu-space.com/" />
+<meta property="og:title" content="Sisu Space | Finnish Sauna &amp; Cold Plunge" />
+<meta property="og:description" content="A handcrafted Finnish sauna and cold plunge experience at Chisholm Vineyards, with sweeping Blue Ridge Mountain views in Charlottesville, VA." />
+<meta property="og:image" content="https://www.sisu-space.com/images/hero.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Sisu Space | Finnish Sauna &amp; Cold Plunge" />
+<meta name="twitter:description" content="A handcrafted Finnish sauna and cold plunge experience at Chisholm Vineyards, with sweeping Blue Ridge Mountain views in Charlottesville, VA." />
+<meta name="twitter:image" content="https://www.sisu-space.com/images/hero.webp" />
+<link rel="canonical" href="https://www.sisu-space.com/" />
+
+<!-- Visitor analytics: replace G-XXXXXXXXXX with your Google Analytics 4 Measurement ID -->
+<script>
+  (function () {
+    var GA_ID = 'G-XXXXXXXXXX';
+    if (GA_ID.indexOf('XXXX') !== -1) return;                         // not configured yet
+    if (!/(^|\.)sisu-space\.com$/.test(location.hostname)) return;    // only track the live site
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag('js', new Date()); gtag('config', GA_ID);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600&family=Archivo:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+
+<style>
+  /* Production image fills (replace the editable image slots) */
+  .slotimg { display:block; }
+  .hero-media .slotimg { width:100%; height:100%; object-fit:cover; object-position:center; }
+  .ritual-media .slotimg { width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; box-shadow:var(--shadow-md); }
+  .svc-media .slotimg { width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; }
+  .story-media .slotimg { width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; box-shadow:var(--shadow-lg); }
+  .about .story-media .slotimg { aspect-ratio:4/5; }
+  .loc-map .slotimg { width:100%; height:100%; min-height:420px; object-fit:cover; }
+  @media (max-width:940px){ .loc-map .slotimg { min-height:320px; } }
+</style>
+</head>
+<body>
+
+<!-- ============================= NAV ============================= -->
+<header class="nav" data-screen-label="Navigation">
+  <a class="brand" href="#top" aria-label="Sisu Space home">
+    <img class="logo-white" src="sisu-logo-white.png" alt="Sisu Space" />
+    <img class="logo-color" src="sisu-logo.png" alt="" aria-hidden="true" />
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a class="link" href="#experience">The Experience</a>
+    <a class="link" href="#services">Services</a>
+    <a class="link" href="#packs">Sessions</a>
+    <a class="link" href="#about">About</a>
+    <a class="link" href="#locations">Find Us</a>
+  </nav>
+  <button class="hamburger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-right">
+    <a class="btn btn-primary nav-cta" href="#packs" data-book="">Book now</a>
+  </div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<main id="top">
+<section class="hero" data-screen-label="Hero">
+  <div class="hero-media">
+    <img class="slotimg" id="hero" src="images/Hero.HEIC.jpeg" alt="Interior of the Sisu Space wood fired sauna" style="object-position:50% 46%" />
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Finnish Sauna · Cold Plunge · Charlottesville, VA</span>
+    <h1 class="display">Find<br />Your<br />Sisu.</h1>
+    <p class="lead">A handcrafted Finnish sauna and cold plunge experience at Chisholm Vineyards, with sweeping Blue Ridge Mountain views in Charlottesville, VA.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary btn-lg" href="#packs" data-book="">Book a session <span class="arrow">→</span></a>
+      <a class="btn btn-ghost btn-lg" href="#services">Our services</a>
+    </div>
+    <div class="hero-meta">
+      <div class="item"><div class="k">190°F+</div><div class="v">Wood fired sauna</div></div>
+      <div class="item"><div class="k">40 to 45°F</div><div class="v">Cold plunges</div></div>
+      <div class="item"><div class="k">Blue Ridge</div><div class="v">Vineyard setting</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= STRIP ============================= -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <div class="seg"><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span></div>
+    <div class="seg"><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span><span class="word">Heat</span><span class="dot"></span><span class="word">Cold</span><span class="dot"></span><span class="word">Rest</span><span class="dot"></span><span class="word">Repeat</span><span class="dot"></span></div>
+  </div>
+</div>
+
+<!-- ============================= PHILOSOPHY ============================= -->
+<section class="philo section-pad" data-screen-label="Philosophy">
+  <div class="wrap">
+    <span class="eyebrow reveal">What is Sisu</span>
+    <p class="philo-statement reveal d1">Sisu is the Finnish word for inner strength drawn from challenge. It is what pulls you into the heat, carries you through the cold, and leaves you <em>steadier than you came.</em></p>
+    <div class="philo-grid">
+      <div class="philo-col reveal">
+        <span class="num">01 · Restore</span>
+        <h3 class="h3">Reset the body</h3>
+        <p>Deep heat opens the circulatory system; the plunge snaps it shut. The contrast flushes tension, sharpens the mind, and leaves you genuinely rested.</p>
+      </div>
+      <div class="philo-col reveal d1">
+        <span class="num">02 · Connect</span>
+        <h3 class="h3">Share the bench</h3>
+        <p>The sauna is a social room without screens. Conversation slows, shoulders drop, and strangers become regulars on the same cedar bench.</p>
+      </div>
+      <div class="philo-col reveal d2">
+        <span class="num">03 · Endure</span>
+        <h3 class="h3">Build quiet grit</h3>
+        <p>Discomfort, on purpose, in good company. Each cycle is a small rehearsal in staying calm when things get hard. That's the practice of sisu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= EXPERIENCE ============================= -->
+<section class="exp section-pad" id="experience" data-screen-label="The Experience">
+  <div class="wrap">
+    <div class="exp-head">
+      <div class="reveal">
+        <span class="eyebrow">The Ritual</span>
+        <h2 class="h2">Heat, cold,<br />repeat.</h2>
+      </div>
+      <p class="lead reveal d1">A cycle of heat, cold, and open air. New to it? Settle in and find your own rhythm. Most guests run the loop two or three times a session.</p>
+    </div>
+
+    <div class="ritual">
+      <article class="ritual-step reveal">
+        <div class="ritual-media">
+          <img class="slotimg" id="exp-heat" src="images/exp-heat.jpg" alt="Inside the Finnish sauna" />
+          <span class="tag">190°F+ · 15 to 20 min</span>
+        </div>
+        <div class="ritual-copy">
+          <span class="step-num">01 / Heat</span>
+          <h3>The sauna</h3>
+          <p>Settle onto the cedar tiers. Water meets the hot stones of our IKI stove and releases löyly, the rush of steam that fills the room and softens everything around you. Breathe.</p>
+          <div class="meta">
+            <div><div class="k">190°F+</div><div class="v">Air temp</div></div>
+            <div><div class="k">Wood fired</div><div class="v">Cedar lined</div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ritual-step reveal">
+        <div class="ritual-media">
+          <img class="slotimg" id="exp-cold" src="images/exp-cold.jpg" alt="The cold plunge" />
+          <span class="tag">40 to 45°F · 1 to 3 min</span>
+        </div>
+        <div class="ritual-copy">
+          <span class="step-num">02 / Cold</span>
+          <h3>The plunge</h3>
+          <p>Then the cold. A slow exhale and you're in. Forty degrees, head clear, every nerve awake. It's brief, it's bracing, and the calm on the other side is the whole point.</p>
+          <div class="meta">
+            <div><div class="k">40 to 45°F</div><div class="v">Plunge temp</div></div>
+            <div><div class="k">Filtered</div><div class="v">Fresh daily</div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ritual-step reveal">
+        <div class="ritual-media">
+          <img class="slotimg" id="exp-rest" src="images/Rest.jpg" alt="Vineyard views at Chisholm" />
+          <span class="tag">As long as you like</span>
+        </div>
+        <div class="ritual-copy">
+          <span class="step-num">03 / Rest</span>
+          <h3>The vineyard</h3>
+          <p>Wrap up and let the body level out with the Blue Ridge on the horizon. When you're ready, go again, or unwind with a glass of award winning Virginia wine from Chisholm.</p>
+          <div class="meta">
+            <div><div class="k">Blue Ridge</div><div class="v">Open air views</div></div>
+            <div><div class="k">Chisholm</div><div class="v">Estate wine</div></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= SERVICES ============================= -->
+<section class="services section-pad" id="services" data-screen-label="Services">
+  <div class="wrap">
+    <div class="exp-head">
+      <div class="reveal">
+        <span class="eyebrow">Services</span>
+        <h2 class="h2">Three ways to<br />find your Sisu.</h2>
+      </div>
+      <p class="lead reveal d1">Drop in for a public session, book the space for your people, or partner with us. However you come to it, the heat and cold do the rest.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <div class="svc-media"><img class="slotimg" id="svc-public" src="images/public.jpg" alt="A public sauna session" /></div>
+        <div class="svc-body">
+          <span class="svc-num">01</span>
+          <h3 class="h3">Public Sauna Sessions</h3>
+          <p>Join a session at Chisholm Vineyards and cycle through our handcrafted sauna and cold plunge, with some of the most breathtaking Blue Ridge views in Charlottesville.</p>
+          <a class="svc-link" href="#packs" data-book="">Book a session <span class="arrow">→</span></a>
+        </div>
+      </article>
+      <article class="svc reveal d1">
+        <div class="svc-media"><img class="slotimg" id="svc-private" src="images/private.jpg" alt="A private booking at Sisu Space" /></div>
+        <div class="svc-body">
+          <span class="svc-num">02</span>
+          <h3 class="h3">Private Bookings &amp; Events</h3>
+          <p>Reserve Sisu Space for your group or celebration. A singular setting for connection, whether it's a birthday, a special occasion, or simply gathering your favorite people.</p>
+          <a class="svc-link" href="#packs" data-book="Private 1-6">Plan an event <span class="arrow">→</span></a>
+        </div>
+      </article>
+      <article class="svc reveal d2">
+        <div class="svc-media"><img class="slotimg" id="svc-partner" src="images/partner.jpg" alt="A partnership experience" /></div>
+        <div class="svc-body">
+          <span class="svc-num">03</span>
+          <h3 class="h3">Partnership Experiences</h3>
+          <p>Studios, gyms, and wellness collectives can collaborate with us on memorable experiences that bring your community to the vineyard for something new and unforgettable.</p>
+          <a class="svc-link" href="mailto:Events@sisu-space.com">Partner with us <span class="arrow">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PACKS ============================= -->
+<section class="packs section-pad" id="packs" data-screen-label="Sessions & Packs">
+  <div class="wrap">
+    <div class="packs-head reveal">
+      <span class="eyebrow" id="packs-eyebrow">Book a session</span>
+      <h2 class="h2" id="packs-title">Reserve your Sisu.</h2>
+      <p class="lead" id="packs-lead">Public sessions are 75 minutes of heat, cold, and the vineyard setting, at your own pace. Buy a pack and the per session price drops up to 33%. Credits live on your account and can be shared between two people.</p>
+      <div class="toggle" role="tablist" aria-label="Booking type">
+        <button data-mode="packs" class="active">Public sessions</button>
+        <button data-mode="member">Private sessions</button>
+      </div>
+    </div>
+
+    <!-- PACKS -->
+    <div class="pack-grid pack-pane reveal d1" data-mode="packs">
+      <div class="pack">
+        <div class="p-name">Public Session</div>
+        <div class="p-sub">A shared sauna &amp; cold plunge to reset, recover, and reconnect.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">35</span><span class="per">/ person</span></div>
+        <div class="p-each">First visit? $28 · 20% off</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> One 75 minute session</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Heat &amp; cold at your pace</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Book any open slot</li>
+        </ul>
+        <button class="btn btn-ghost" data-book="Public Session">Book a session</button>
+      </div>
+
+      <div class="pack">
+        <div class="p-name">4 Session Pack</div>
+        <div class="p-sub">Great for a monthly reset, banked and ready.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">120</span><span class="per">/ 4</span></div>
+        <div class="p-each">$30 per session · save 14%</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Four 75 minute sessions</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Valid 2 months</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Shared between two</li>
+        </ul>
+        <button class="btn btn-ghost" data-book="4-Session Pack">Buy 4 pack</button>
+      </div>
+
+      <div class="pack featured">
+        <span class="badge">Most popular</span>
+        <div class="p-name">8 Session Pack</div>
+        <div class="p-sub">The regular's choice for a steady rhythm at the vineyard.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">210</span><span class="per">/ 8</span></div>
+        <div class="p-each">$26.25 per session · save 25%</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Eight 75 minute sessions</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Valid 3 months</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Shared between two</li>
+        </ul>
+        <button class="btn btn-primary" data-book="8-Session Pack">Buy 8 pack</button>
+      </div>
+
+      <div class="pack">
+        <div class="p-name">12 Session Pack</div>
+        <div class="p-sub">Best value, the lowest per session rate we offer.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">280</span><span class="per">/ 12</span></div>
+        <div class="p-each">$23.33 per session · save 33%</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Twelve 75 minute sessions</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Valid 4 months</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Shared between two</li>
+        </ul>
+        <button class="btn btn-ghost" data-book="12-Session Pack">Buy 12 pack</button>
+      </div>
+    </div>
+
+    <!-- PRIVATE SESSIONS -->
+    <div class="pack-grid pack-pane two-up reveal d1" data-mode="member" style="display:none;">
+      <div class="pack featured">
+        <span class="badge">Most booked</span>
+        <div class="p-name">Private · 1 to 6 People</div>
+        <div class="p-sub">Reserve the entire sauna &amp; cold plunge, just for your group.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">200</span><span class="per">flat · 75 min</span></div>
+        <div class="p-each">Ideal for couples or small groups</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Exclusive use of the space</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Full sauna &amp; cold plunge access</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Up to 6 guests · 75 min</li>
+        </ul>
+        <button class="btn btn-primary" data-book="Private 1-6">Request a date</button>
+      </div>
+
+      <div class="pack">
+        <div class="p-name">Private · 7 to 12 People</div>
+        <div class="p-sub">The same experience, sized for events and larger groups.</div>
+        <div class="p-price"><span class="cur">$</span><span class="amt">350</span><span class="per">flat · 75 min</span></div>
+        <div class="p-each">Perfect for events or large groups</div>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Exclusive use of the space</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Full sauna &amp; cold plunge access</li>
+          <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5 5.5 11 12 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> 7 to 12 guests · 75 min</li>
+        </ul>
+        <button class="btn btn-ghost" data-book="Private 7-12">Request a date</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= ABOUT / OUR STORY ============================= -->
+<section class="story about section-pad" id="about" data-screen-label="Our Story">
+  <div class="wrap">
+    <div class="story-copy reveal">
+      <span class="eyebrow">Our Story</span>
+      <h2 class="h2">A note from<br />our founder.</h2>
+      <p>Sisu Space exists to help people slow down, reconnect, and feel the restorative power of heat and cold. I grew up in Charlottesville with a deep appreciation for community, nature, and the spaces that bring people together.</p>
+      <p>After years in technology consulting, I saw how easily life fills with screens and constant motion. Then I found the ritual of sauna and cold plunge, and it gave back a clarity and presence I wanted to share. So I brought it home to Charlottesville and built a place to reset, recharge, and reconnect, away from the constant pull of technology.</p>
+      <p>The Finnish call it <em>sisu</em>, the quiet courage that carries you through challenge. I cannot wait to share the heat, the cold, and everything in between with you.</p>
+      <div class="founder-sign">
+        <span class="n">Kyle</span>
+        <span class="r">Founder of Sisu Space</span>
+      </div>
+    </div>
+    <div class="story-media reveal d1">
+      <img class="slotimg" id="about-img" src="images/about-img.jpg" alt="Sisu Space founder" style="object-position:50% 5%" />
+    </div>
+  </div>
+</section>
+
+<!-- ============================= LOCATIONS ============================= -->
+<section class="loc section-pad" id="locations" data-screen-label="Find Us">
+  <div class="wrap">
+    <div class="loc-info reveal">
+      <span class="eyebrow">Find Us</span>
+      <h2 class="h2">At Chisholm&nbsp;Vineyards</h2>
+      <div class="loc-block">
+        <div class="lab">Where</div>
+        <div class="val">Chisholm Vineyards<br />Charlottesville, VA</div>
+      </div>
+      <div class="loc-block">
+        <div class="lab">Also great for</div>
+        <div class="val">Private gatherings, celebrations, and special occasions, all at Chisholm Vineyards.</div>
+      </div>
+      <a class="btn btn-primary" href="#packs" data-book="" style="margin-top:26px;">Book a session <span class="arrow">→</span></a>
+    </div>
+    <div class="loc-map reveal d1">
+      <img class="slotimg" id="map" src="images/Chisholm.webp" alt="Sisu Space at Chisholm Vineyards" />
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CLOSING ============================= -->
+<section class="closing section-pad" data-screen-label="Closing CTA">
+  <div class="wrap reveal">
+    <span class="eyebrow no-rule" style="justify-content:center;">Charlottesville, VA</span>
+    <h2>Find your Sisu.</h2>
+    <p class="lead">Book a session, gather your people, and feel what an hour of heat and cold can do. We are ready when you are.</p>
+    <a class="btn btn-primary btn-lg" href="#packs" data-book="">Book a session <span class="arrow">→</span></a>
+  </div>
+</section>
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="footer" data-screen-label="Footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="#top"><img src="sisu-logo.png" alt="Sisu Space" /></a>
+        <p class="footer-blurb">A Finnish sauna and cold plunge experience in Charlottesville, VA. Find your Sisu.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#experience">The Experience</a>
+        <a href="#services">Services</a>
+        <a href="#packs">Sessions</a>
+        <a href="#about">About</a>
+        <a href="#locations">Find Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Sisu Space</h4>
+        <a href="#packs">Public Sessions</a>
+        <a href="#packs" data-book="Private 1-6">Private sessions</a>
+        <a href="https://book.sisu-space.com/" target="_blank" rel="noopener">Book now</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/sisu_space/" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:Events@sisu-space.com">Events@sisu-space.com</a>
+        <a href="https://book.sisu-space.com/" target="_blank" rel="noopener">Book online</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="fine">© <span id="year">2026</span> Sisu Space · Charlottesville, VA</span>
+      <span class="fine">Find your Sisu</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="site.js"></script>
+</body>
+</html>
